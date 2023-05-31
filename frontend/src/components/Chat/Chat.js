@@ -5,7 +5,6 @@ import { useGetChatMessagesMutation } from '../../api/api';
 import SingleMessage from '../SingleMessage/SingleMessage';
 import ChatSettings from '../ChatSettings/ChatSettings';
 import './Chat.css'
-import { BaseURL } from '../../api/const';
 
 export default function Chat({}) {
   const {id} = useParams()
@@ -25,7 +24,7 @@ export default function Chat({}) {
   const messagesFieldRef = useRef(null)
   const observerTarget = useRef(null);
   
-  const socket = new WebSocket(`ws://localhost:8089/ws`)
+  const socket = new WebSocket(`ws://151.248.117.193:8089/ws`)
 
   const [showSettings, setShowSettings] = useState(false)
 
