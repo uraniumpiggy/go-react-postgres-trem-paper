@@ -1,0 +1,9 @@
+listen:
+  bind_ip: 0.0.0.0
+  port: 8089
+database:
+  username: user
+  password: secret
+  host: database
+  port: 5432
+  database: service-db

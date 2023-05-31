@@ -1,0 +1,7 @@
+.messages-field {
+    display: flex;
+    height: 80vh;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+    gap: 100px;
+}

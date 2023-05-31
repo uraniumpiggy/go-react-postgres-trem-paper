@@ -1,0 +1,15 @@
+.message-wrapper {
+    width: fit-content;
+    max-width: 80%;
+    min-width: 30%;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.message-mine {
+    margin-left: auto;
+}
+
+.message-foreign {
+    margin-right: auto;
+}
